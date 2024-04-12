@@ -1,0 +1,149 @@
+body {
+background-color: #1e202b;
+color: #bfc1c8;
+font-family: "Roboto", "Open Sans", sans-serif;
+font-size: 14px;
+font-weight: 300;
+line-height: 1.5;
+
+}
+
+/* Navbar */
+ .menu .nav-fill .nav-item-home a, .menu .nav-fill .nav-item:hover a {
+    border-color: #009ad8;
+    color: #009ad8 ;
+}
+
+
+ .menu .nav-item-home a, .menu .nav-item a {
+    padding: 5px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    color: white;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    font-weight: 400;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: transparent ;
+}
+h1 {
+font-size: 1.1428571429em;
+}
+
+
+.bg-body-tertiary {
+    background-color: #1e202b !important;
+}
+.site-content a {
+    color: white;
+}
+.img {
+    background-image: url(../images/banner.png);
+   width: 100%;
+   background-size: cover;
+   padding: 70px 0;
+   
+  
+}
+.wedth90{
+    /* width: 95%; */
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+}
+.wedth7 {
+    border: none;
+    background: #009ad8;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+}
+   
+
+
+/* footer */
+
+.site-footer {
+    background: #262936;
+    padding: 50px 0;
+}
+
+
+
+.site-footer .inp {
+    padding: 20px 100px 20px 20px;
+    background: #1e202b !important;
+    width: 100%;
+    color: white;
+}
+
+
+.site-footer .sub
+{
+    border: none;
+    background: #009ad8;
+    padding: 0 30px ;
+    
+    border-radius: 30px;
+    color: white;
+
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+}
+
+
+.social-links a {
+    background-color: #1e202b !important;
+    color: #009ad8;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1.4285714286em;
+}
+
+.social-links a:hover {
+    background: #009ad8 !important;
+    color: white;
+}
+
+
+.forecast .num {
+    color: red;
+}
+
+
+.forecast-container .forecast.today .degree .num {
+    font-size: 6.4285714286rem;
+    margin-right: 30px;
+}
+.forecast-container .forecast .forecast-header {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+}
+.forecast-container .forecast:nth-child(even) {
+    background-color: #262936;
+}
+.forecast-container .forecast {
+    width: 33.33%;
+    text-align: center;
+}
+.forecast-container .forecast .forecast-content .degree {
+    font-size: 24px;
+    font-size: 1.7142857143em;
+    color: white;
+    font-weight: 700;
+}
+
+.custom {
+    color: #009ad8;
+    margin: 20px 0;
+}
